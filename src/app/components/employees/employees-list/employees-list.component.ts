@@ -9,40 +9,33 @@ import { Employee } from 'src/app/models/employee.model';
 export class EmployeesListComponent {
 
   employees: Employee[] = [
-    {
 
-      id: '5b4ed4cc-f31b-444b-a06e-05ce7b322892',
-      name: 'Daniel Chaves',
-      email: 'dccastro.7@gmail.com',
-      phone: 88998106150,
+
+    {
+      id: '1',
+      name: 'Alice Smith',
+      email: 'alice.smith@example.com',
+      phone: 1234567890,
+      salary: 50000,
+      department: 'Sales'
+    },
+    {
+      id: '2',
+      name: 'Bob Johnson',
+      email: 'bob.johnson@example.com',
+      phone: 2345678901,
       salary: 60000,
       department: 'IT'
-
     },
     {
-
-      id: '5c4ed2cc-f31b-444b-a06e-05ce7b322892',
-      name: 'Whilian Smith',
-      email: 'wsimith.67@gmail.com',
-      phone: 56759878,
-      salary: 10000,
-      department: 'Garden'
-
-    },
-    {
-
-      id: '5b4ed1cc-f31b-434b-a06e-05ce7b322892',
-      name: 'Gabriel Pec',
-      email: 'gabrielpec.10@gmail.com',
-      phone: 98726371,
-      salary: 100,
-      department: 'Student'
-
-    },
-
-
-
-  ];
+      id: '3',
+      name: 'Charlie Brown',
+      email: 'charlie.brown@example.com',
+      phone: 3456789012,
+      salary: 70000,
+      department: 'Marketing'
+    }
+  ]
 
   constructor() {
 

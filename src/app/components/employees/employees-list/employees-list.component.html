@@ -2,7 +2,7 @@
 
     <h1 class="mb-3">Employees</h1>
 
-    <table class="table" *ngIf="employees">
+    <table class="table" *ngIf="employees && employees.length > 0">
         <thead>
             <tr>
                 <th>Id</th>
@@ -23,5 +23,5 @@
             </tr>
         </tbody>
     </table>
-    <p *ngIf="!employees">No Employees Found</p>
+    <p *ngIf="!employees || employees.length <= 0">No Employees Found</p>
 </div>
