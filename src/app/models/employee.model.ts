@@ -4,7 +4,7 @@ export interface Employee{
     email:string;
     phone: number;
     salary:number;
-    department:string;
+    departament:string;
 
 
 

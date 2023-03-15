@@ -17,7 +17,7 @@ export class AddEmployeeComponent {
     email: '',
     phone: 0,
     salary: 0,
-    department: ''
+    departament: ''
 
   };
   constructor(private employeeService: EmployeesService, private router: Router ){}
